@@ -51,7 +51,7 @@ sites:
 
 
 i18n:
-  footer: Big Thanks to Github and [Upptime](https://upptime.js.org).
+  footer: [This](https://upptime.js.org) is Open Source.
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
