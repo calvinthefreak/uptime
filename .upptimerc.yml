@@ -5,38 +5,47 @@ repo: uptime # The name of this repository
 sites:
   - name: 64i.de
     url: https://64i.de
+    logoUrl: https://64i.de/favicon.ico
     expectedStatusCodes:
       - 200
   - name: nextcloud.64i.de
     url: https://nextcloud.64i.de
+    logoUrl: https://64i.de/favicon.ico
     expectedStatusCodes:
       - 200
   - name: mail.64i.de (web)
     url: https://mail.64i.de
+    logoUrl: https://mail.64i.de/favicon.png
     expectedStatusCodes:
       - 200
   - name: mail.64i.de (smtp)
     check: "tcp-ping"
     url: mail.64i.de
     port: 25
+    logoUrl: https://mail.64i.de/favicon.png
   - name: mail.64i.de (smtps)
     check: "tcp-ping"
     url: mail.64i.de
     port: 465
+    logoUrl: https://mail.64i.de/favicon.png
   - name: vortex.64i.de
     url: https://vortex.64i.de/
+    logoUrl: https://64i.de/favicon.ico
     expectedStatusCodes:
       - 200
   - name: vortexcdn.64i.de
     url: https://vortexcdn.64i.de/vlp6p46n7ts.png
+    logoUrl: https://64i.de/favicon.ico
     expectedStatusCodes:
       - 200
   - name: git.64i.de
     url: https://git.64i.de/
+    logoUrl: https://64i.de/favicon.ico
     expectedStatusCodes:
       - 200
   - name: x11.moe
     url: https://x11.moe
+    logoUrl: https://64i.de/favicon.ico
     expectedStatusCodes:
       - 200
 
