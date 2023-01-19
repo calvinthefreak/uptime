@@ -11,7 +11,7 @@ sites:
     url: https://nextcloud.64i.de
     expectedStatusCodes:
       - 200
-- name: Mail
+  - name: Mail
     url: https://mail.64i.de
     expectedStatusCodes:
       - 200
