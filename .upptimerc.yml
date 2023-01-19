@@ -3,18 +3,46 @@ owner: calvinthefreak # Your GitHub organization or username, where this reposit
 repo: uptime # The name of this repository
 
 sites:
-  - name: Main Site
+  - name: 64i.de
     url: https://64i.de
     expectedStatusCodes:
       - 200
-  - name: Nextcloud
+  - name: nextcloud.64i.de
     url: https://nextcloud.64i.de
     expectedStatusCodes:
       - 200
-  - name: Mail
+  - name: mail.64i.de (web)
     url: https://mail.64i.de
     expectedStatusCodes:
       - 200
+  - name: mail.64i.de (smtp)
+    check: "tcp-ping"
+    url: mail.64i.de
+    port: 25
+  - name: mail.64i.de (smtps)
+    check: "tcp-ping"
+    url: mail.64i.de
+    port: 465
+  - name: vortex.64i.de
+    url: https://vortex.64i.de/
+    expectedStatusCodes:
+      - 200
+  - name: vortexcdn.64i.de
+    url: https://vortexcdn.64i.de/vlp6p46n7ts.png
+    expectedStatusCodes:
+      - 200
+  - name: git.64i.de
+    url: https://git.64i.de/
+    expectedStatusCodes:
+      - 200
+  - name: x11.moe
+    url: https://x11.moe
+    expectedStatusCodes:
+      - 200
+
+
+i18n:
+  footer: Big Thanks to Github and [Upptime](https://upptime.js.org).
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
