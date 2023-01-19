@@ -5,17 +5,23 @@ repo: uptime # The name of this repository
 sites:
   - name: Main Site
     url: https://64i.de
+    expectedStatusCodes:
+      - 200
   - name: Nextcloud
     url: https://nextcloud.64i.de
-  - name: Mail
-    url: https://Mail.64i.de
+    expectedStatusCodes:
+      - 200
+- name: Mail
+    url: https://mail.64i.de
+    expectedStatusCodes:
+      - 200
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.64i.de
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://64i.de/favicon.ico
   name: 64i.de Network Status
   introTitle: "**64i.de** Status."
   introMessage: This page shows the status of all 64i.de Services
