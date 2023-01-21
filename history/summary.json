@@ -4,18 +4,20 @@
     "url": "https://64i.de",
     "icon": "https://icons.duckduckgo.com/ip3/64i.de.ico",
     "slug": "64i-de",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 845,
-    "timeDay": 836,
-    "timeWeek": 845,
-    "timeMonth": 845,
-    "timeYear": 845,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.96%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
+    "time": 768,
+    "timeDay": 494,
+    "timeWeek": 768,
+    "timeMonth": 768,
+    "timeYear": 768,
+    "dailyMinutesDown": {
+      "2023-01-21": 2
+    }
   },
   {
     "name": "nextcloud.64i.de",
