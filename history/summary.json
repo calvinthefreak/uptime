@@ -4,19 +4,19 @@
     "url": "https://64i.de",
     "icon": "https://icons.duckduckgo.com/ip3/64i.de.ico",
     "slug": "64i-de",
-    "status": "down",
-    "uptime": "99.96%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.96%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "99.96%",
-    "time": 768,
-    "timeDay": 494,
-    "timeWeek": 768,
-    "timeMonth": 768,
-    "timeYear": 768,
+    "status": "up",
+    "uptime": "99.81%",
+    "uptimeDay": "99.46%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.81%",
+    "time": 772,
+    "timeDay": 599,
+    "timeWeek": 772,
+    "timeMonth": 772,
+    "timeYear": 772,
     "dailyMinutesDown": {
-      "2023-01-21": 2
+      "2023-01-21": 8
     }
   },
   {
