@@ -22,9 +22,9 @@
     "url": "https://nextcloud.64i.de",
     "icon": "https://icons.duckduckgo.com/ip3/nextcloud.64i.de.ico",
     "slug": "nextcloud-64i-de",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,7 +33,9 @@
     "timeWeek": 704,
     "timeMonth": 727,
     "timeYear": 727,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-02-05": 0
+    }
   },
   {
     "name": "mail.64i.de (web)",
@@ -131,13 +133,13 @@
     "icon": "https://icons.duckduckgo.com/ip3/git.64i.de.ico",
     "slug": "git-64i-de",
     "status": "up",
-    "uptime": "74.86%",
-    "uptimeDay": "97.30%",
+    "uptime": "74.98%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.61%",
-    "uptimeMonth": "74.86%",
-    "uptimeYear": "74.86%",
+    "uptimeMonth": "74.98%",
+    "uptimeYear": "74.98%",
     "time": 961,
-    "timeDay": 551,
+    "timeDay": 563,
     "timeWeek": 649,
     "timeMonth": 961,
     "timeYear": 961,
